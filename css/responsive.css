@@ -69,4 +69,12 @@
         margin-top: 20px;
     }
 
+    .section-5 .invoice-head{
+        flex-direction: column;
+    }
+
+    .section-5{
+        height: 100vh;
+    }
+
 }
