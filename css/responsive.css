@@ -1,0 +1,72 @@
+
+
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Contact Page */
+    .contact-form{
+        flex-direction: column;
+    }
+
+    .display-none{
+        display: none;
+    }
+
+    .b-display{
+        display: inline;
+    }
+
+    .navbar ul{
+        margin-top: 10px;
+        background: #FDC830;
+        background: -webkit-linear-gradient(to bottom, #F37335, #FDC830);
+        background: linear-gradient(to bottom, #F37335, #FDC830);
+        z-index: 2;
+    }
+
+    .section-4 h1, .section-4 p{
+        width: 100%;
+    }
+
+    /* Home Page */
+    .hotel-title h2{
+        font-size: 0.8em;
+    }
+
+    .hotel-title{
+        left: 5vw;
+    }
+
+    .hotel-title .btn{
+        font-size: 1.5rem;
+    }
+
+    /* Menu Page */
+    .section-2{
+        width: auto;
+    }
+
+    /* About Page */
+    .section-3{
+        flex-direction: column;
+    }
+
+    .about-box-2 img{
+        width: 80vw;
+    }
+
+    /* Receipt Page */
+    .invoice-main{
+        height: auto;
+    }
+
+    .section-5 .btn{
+        margin-top: 20px;
+    }
+
+}

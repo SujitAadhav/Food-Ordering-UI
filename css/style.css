@@ -86,7 +86,7 @@
 .hotel-title{
     position: absolute;
     top: 30vh;
-    left: 15vw;
+    left: 20vw;
     font-size: 3em;
     text-align: center;
     font-family: cursive;
@@ -94,7 +94,12 @@
     /* text-shadow: #3cd710 6px 2px; */
 }
 
+.hotel-title h2{
+    font-size: 4rem;
+}
+
 .hotel-title .btn{
+    margin-top: 10px;
     background: none;
     border: 2px solid currentColor;
     border-radius: 3rem;
@@ -472,38 +477,11 @@
     will-change: transform;
 }
 
+.b-display-none{
+    display: none;
+}
+
 /* Utility CSS */
 .row{
     display: flex;
-}
-
-/* Media Queries */
-@media screen and (max-width: 1000px) {
-    .navbar{
-        position: relative;
-        z-index: 1;
-        height: 100vh;
-    }
-    .section-1 img{
-        position: absolute;
-        left: 0;
-    }  
-
-    .hamburger img{
-        display: block;
-    }
-
-    .navbar ul li a{
-        font-size: 18px;
-    }
-
-    .navbar{
-        width: 30%;
-    }
-
-    .sidebargo{
-        transform: translate(-86px, 0px);
-        position: absolute;
-    }
-
 }
