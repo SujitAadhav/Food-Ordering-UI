@@ -78,3 +78,9 @@
     }
 
 }
+
+@media screen and (max-width: 495px){
+    .invoice-main{
+        width: 100%;
+    }
+}
